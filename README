@@ -1,5 +1,2 @@
-Alternative refactoring of Jason Gorman's Codemanship Refactoring Assault Course exercise. See http://www.parlezuml.com/blog/
+Original code for Jason Gorman's Codemanship Refactoring Assault Course exercise. See http://codemanship.co.uk/parlezuml/blog/?postid=1018
 
-The thing that seems strange to me when seeing the screen cast of the original is the choice to replace the switch statement with a strategy, although it's a common refactoring it seems overkill in this case as there is a Rating object that could/should have the knowledge required.
-
-This is my take on the exercise with commits after each refactoring step.
