@@ -3,8 +3,8 @@ using System.Collections.Generic;
 
 namespace RefactoringAssaultCourse
 {
-    public class VideoLibrary {
-
+    public class VideoLibrary 
+    {
         private readonly Dictionary<String, Video> _videos = new Dictionary<String, Video>();
 
         public bool HasVideo(String title) {
@@ -15,5 +15,9 @@ namespace RefactoringAssaultCourse
             _videos.Add(video.GetTitle(), video);
         }
 
+        private Dictionary<String, Video> GetVideos()
+        {
+            return _videos;
+        } 
     }
 }
